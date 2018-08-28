@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+
+<head>
+     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Crafts Kingdom</title>
+    
+    <link href="css/YourStyle.css" rel="stylesheet">
+    <link href="css/YourStyle.css" rel="stylesheet">
+    
+  
+
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+
+</head>
+
+
+
+<body>
+
+	<div class="container">
+	  <div class="intro">
+       <a href="index.html"><img class="logo" src="img/logo.jpg"></a>
+
+
+	   <hr>
+	   </div>
+	   </div>
+<div class="container">
+	<ul>
+		
+	  		<li><a class="navbar-brand" href="index.html" id="nb">Home</a></li>
+           <li><a class="navbar-brand" href="products.html" id="nb">Products</a></li>
+            <li><a class="navbar-brand" href="aboutUs.html" id="nb">About</a></li>
+            <li><a class="navbar-brand" href="contactUs.html" id="nb">Contact</a></li>
+    </ul>
+</div>
+
+<br>
+
+<div class="container" id="start">
+<img  src="img/home-main.jpg" id="welcome-image">
+</div>
+
+
+
+
+  <div class="container" id="welcome">
+
+<h3> 
+Crafts Kingdom is supplying all the arts and crafts from the land of Pakistan. Pakistani Crafts are
+known as customs of the country since ancient times of Harappa, Mohen Jo Daro, Gandharan and Indus civilizations.
+These crafts are famous around the globe for their magnetizing hues, attractive designs and delightful textures.
+</h3>
+
+
+</div>
+
+
+
+<div class="container">
+	<div class="w3-content w3-display-container">
+	<img class="mySlides" src="img/pk.jpg" id="ss">
+  <img class="mySlides" src="img/vases.jpg" id="ss">
+  <img class="mySlides" src="img/horses.jpg" id="ss">
+  <img class="mySlides" src="img/k1.jpg" id="ss">
+  <img class="mySlides" src="img/truck.jpg" id="ss">
+  <img class="mySlides" src="img/aladin.jpg" id="ss">
+  <img class="mySlides" src="img/khusa1.jpg" id="ss">
+  
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)" id="lb">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)" id="rb">&#10095;</button>
+  
+  <script>
+var slideIndex = 1;
+var slideIndex = 0;
+carousel();
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1}
+    x[slideIndex-1].style.display = "block";
+    setTimeout(carousel, 4000); // Change image every 4 seconds
+}
+var slideIndex = 1;
+showDivs(slideIndex);
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    x[slideIndex-1].style.display = "block";
+}
+</script>
+
+	</div>
+</div> 
+
+
+
+
+
+<div class="container" id="home">
+	<i>
+Every product we supplies is of great quaity, depends on the transparency of the materials, the glimpses of culture and art.
+We promise to sell each product full legacy of Pakistani customs in terms of beauty, dignity, form and style.
+</i>
+<i> 
+The making of crafts is ethanic as different areas of Pakistan own their individual heritage and the style 
+in their specific manner. Handicrafts grabs the attention to the skills and endeavous of the craftsman him/herself. 
+</i>
+</div>
+
+
+
+<div id="details">
+<b>Areas of Pakistan famous for customs</b>
+<br>
+<i>
+The products that we sell reflects the traditional ancient customs. The Punjab is fomous for the pottery and ceramics 
+especially the city of Sufism 'Multan'. The copper and brass decorations usally made up in famous city Lahore. 
+The Balouchi rugs and carpets are made up of pure materials since 16th century. The knotted whoolen carpets are well known in whole asia 
+and the Middle-East for their amazing designs. The other handicrafts are made in the city of Taxila with a heritage from Gandharan 
+Civilization since (4000-5000 BC).
+ </i>
+	</div>
+
+<br>
+
+<div class="container" id="customize">
+	<div class="advert">
+<img  src="img/ad.jpg" id="promotions">
+<a href="products.html"><button class="btn">Buy Now</button></a>
+	</div>
+		<div id="offer">
+<h3>Limited special offer! 50% OFF on every product in the store.</h3>
+		</div>
+
+</div>
+
+
+<div class="foot">
+
+
+<a href="https://www.instagram.com/crafts_kingdom/"><img  src="img/instagram.jpg" id="Social-Media"></a>
+
+<div class="col-50">
+           
+<div>
+           
+<img src="img/Credit-Card.jpg" id="credit-card">
+       
+</div>
+
+<div class="container">
+<footer id="footer">
+<h5>“This is an academic project website and does not offer the 
+  products/services advertised in their current form" </h5>
+</footer> 
+
+</div>
+<br>
+</div>
+<script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+</body>
+
+</html>
